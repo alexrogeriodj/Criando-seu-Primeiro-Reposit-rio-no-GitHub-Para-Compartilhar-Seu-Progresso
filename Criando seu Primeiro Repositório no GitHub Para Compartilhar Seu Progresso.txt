@@ -1,0 +1,107 @@
+Criar o primeiro repositório usando o GitHub Desktop
+Você pode usar o GitHub Desktop para criar e gerenciar um repositório do Git sem usar a linha de comando.
+
+Introdução
+O GitHub Desktop amplia e simplifica o fluxo de trabalho no GitHub.com com uma interface visual, em vez de comandos de texto na linha de comando. Ao fim da leitura deste guia, você usará o GitHub Desktop para criar um repositório, alterá-lo e publicar as alterações no GitHub.
+
+Depois de instalar o GitHub Desktop e entrar no GitHub ou GitHub Enterprise, você pode criar e clonar um repositório de tutorial. O tutorial apresentará os conceitos básicos de trabalho com o Git e o GitHub, incluindo a instalação de um editor de texto, criando um branch, fazendo um commit, fazendo push para GitHub.com e abrindo um pull request. O tutorial está disponível caso você ainda não tenha nenhum repositório no GitHub Desktop.
+
+Recomendamos concluir o tutorial, mas se você desejar explorar o GitHub Desktop criando um novo repositório, este guia irá orientar você a usar o GitHub Desktop para funcionar em um repositório do Git.
+
+Parte 1: Instalando GitHub Desktop e autenticando sua conta
+Você pode instalar o GitHub Desktop em qualquer sistema operacional compatível. Depois de instalar o app, você deverá entrar e autenticar sua conta no GitHub ou no GitHub Enterprise antes de criar e clonar um repositório de tutorial.
+
+Para obter mais informações sobre instalação e autenticação, consulte "Configurando o GitHub Desktop".
+
+Parte 2: Criando um novo repositório
+Se você não tiver nenhum repositório associado ao GitHub Desktop, você verá a frase "Vamos começar!", em que você pode optar por criar e clonar um repositório de tutorial, clonar um repositório da Internet existente, criar um novo repositório ou adicionar um repositório existente a partir do seu disco rígido. Vamos começar! screen
+
+Criar e clonar um repositório de tutorial
+Recomendamos que você crie e clone um repositório de tutorial como seu primeiro projeto a ser praticado usando o GitHub Desktop.
+
+Clique em Create a tutorial repository and clone it (Criar um repositório de tutorial e cloná-lo).
+Botão Create and clone a tutorial repository (Criar e clonar um repositório de tutorial)
+Siga as instruções no tutorial para instalar um editor de texto, criar um branch, editar um arquivo, fazer um commit, publicar em GitHub e abrir um pull request.
+Criar um repositório
+Se você não desejar criar e clonar um repositório de tutorial, é possível criar um novo repositório.
+
+Clique em Create a New Repository on your hard drive (Criar um repositório no disco rígido).
+Criar um repositório
+Preencha os campos e selecione as suas opções preferidas.
+Opções de criar um repositório
+"Name" (Nome) define o nome do repositório no local e no GitHub.
+"Description" (Descrição) é um campo opcional com mais informações sobre o propósito do repositório.
+"Local path" (Caminho local) define o local do repositório no computador. Por padrão, o GitHub Desktop cria uma pasta GitHub dentro da pasta Documents (Documentos) para armazenar seus repositórios, mas é possível escolher qualquer local no computador. O novo repositório será uma pasta dentro do local escolhido. Por exemplo, se você nomear o repositório como Tutorial, será criada uma pasta de nome Tutorial dentro da pasta no caminho selecionado. O GitHub Desktop registra o local escolhido para as próximas vezes que você criar ou clonar repositórios.
+A opção Initialize this repository with a README (Inicializar este repositório com um README) cria o commit com um arquivo README.md. Arquivos README ajudam as pessoas a entenderem o objetivo do seu projeto. Portanto, é recomendável usar esse item e adicionar informações úteis a ele. Quando alguém acessar seu repositório no GitHub, a primeira informação exibida será o README. Para obter mais informações, consulte "Sobre README".
+O menu suspenso Git ignore (Git para ignorar) permite incluir um arquivo personalizado para ignorar determinados arquivos no repositório local, isto é, informações que você não quer armazenar no controle de versão. Se houver uma linguagem ou framework específico para uso, você poderá selecionar uma opção na lista disponível. Se você estiver começando agora, fique à vontade para ignorar essa opção. Para obter mais informações, consulte "Ignorar arquivos".
+O menu suspenso License (Licença) permite adicionar uma licença de código aberto a um arquivo LICENSE no repositório. Não se preocupe em adicionar uma licença de imediato. Para obter mais informações sobre as licenças de código aberto disponíveis e sobre como adicioná-las ao repositório, consulte "Criar a licença de um repositório."
+Clique em Create Repository (Criar repositório).
+Parte 3: Explorando o GitHub Desktop
+No menu de arquivos na parte superior da tela, você pode acessar as configurações e ações que pode executar no GitHub Desktop. A maioria das ações tem atalhos de teclado para aumentar a eficiência do seu trabalho. Para obter uma lista completa de atalhos de teclado, consulte "Atalhos de teclado".
+
+A barra de menu do GitHub Desktop
+Na parte superior do aplicativo GitHub Desktop, você verá uma barra que mostra o estado atual do seu repositório.
+
+Current repository (Repositório atual) mostra o nome do repositório em que você está trabalhando. Você pode clicar em Current repository (Repositório atual) para alternar entre repositórios no GitHub Desktop.
+
+Current branch (Branch atual) mostra o nome do branch em que você está trabalhando. Você pode clicar em Current branch (Branch atual) para exibir todos os branches do repositório, alternar entre branches ou criar um branch. Depois de criar pull requests no repositório, você também poderá exibi-las clicando em Current branch (Branch atual).
+
+A opção Publish repository (Publicar repositório) aparece porque você ainda não publicou o repositório no GitHub. A publicação será feita depois, em outra etapa. Esta seção da barra mudará com base no status de seu branch atual e repositório. Diferentes ações dependentes de contextos estarão disponíveis para o intercâmbio de dados entre repositórios locais e remotos.
+
+Explorar o GitHub Desktop
+
+Alterações e histórico
+Na barra lateral à esquerda, você verá Changes (Alterações) e History (Histórico). Abas Alterações e Histórico
+
+A opção Changes (Alterações) mostra as mudanças que você fez nos arquivos do branch atual, mas que ainda estão sem commit no repositório local. Na parte inferior, há uma caixa com caixas de texto "Resumo" e "Descrição" e um botão Commit para BRANCH. É nessa área que você fará o commit das novas alterações. O botão Commit para BRANCH é dinâmico e irá exibir em qual branch você está fazendo o commit das suas alterações. Área do commit
+
+A opção History (Histórico) mostra os commits anteriores no branch atual do repositório. Provavelmente você verá um "Initial commit" (Commit inicial) criado pelo GitHub Desktop quando você criou o repositório. À direita do commit, dependendo das opções escolhidas durante a criação do repositório, você poderá ver arquivos .gitattributes, .gitignore, LICENÇA ou README. Ao clicar em cada arquivo você verá o diff, que consiste no registro das alterações feitas no arquivo do commit em questão. O diff não mostra todo o conteúdo do arquivo, mas somente as partes que foram alteradas. Exibição de histórico
+
+Parte 4: Publicando seu repositório no GitHub
+Ao criar um novo repositório, ele existe apenas no seu computador e você é o único que pode acessar o repositório. Você pode publicar seu repositório no GitHub para mantê-lo sincronizado em vários computadores e permitir que outras pessoas o acessem. Para publicar seu repositório, faça push de suas alterações locais no GitHub.
+
+Clique em Publicar repositório na barra de menu.
+Publicar repositório
+
+O GitHub Desktop preenche automaticamente os campos "Nome" e "Descrição" com as informações inseridas quando você criou o repositório.
+A opção de Manter este código privado permite que você controle quem pode visualizar o seu projeto. Se você deixar esta opção desmarcada, outros usuários em GitHub poderão visualizar o seu código. Se você selecionar esta opção, o seu código não ficará disponível publicamente.
+Se estiver presente, o menu suspenso da Organização permite que você publique o seu repositório em uma organização específica à qual você pertence no GitHub.
+Etapas para publicar repositório
+
+Clique no botão Publish Repository (Publicar repositório).
+
+É possível acessar o repositório no GitHub pelo GitHub Desktop. No menu do arquivo, clique em Repository (Repositório) e em View on GitHub (Exibir no GitHub). Fazer isso levará você diretamente para o repositório no seu navegador padrão.
+
+Parte 5: Fazer commit e carregar as alterações
+Agora que você criou e publicou seu repositório, você está pronto para fazer alterações no seu projeto e começar a criar seu primeiro commit no seu repositório.
+
+Para abrir o editor externo dentro de GitHub Desktop, clique em Repositório e, em seguida, clique em Abrir no EDITOR. Para obter mais informações, consulte "Configurar um editor padrão".
+Abrir no editor
+
+Faça algumas alterações no arquivo README.md que você criou anteriormente. Você pode adicionar informações que descrevem o seu projeto, como o que ele faz e por que ele é útil. Quando estiver satisfeito com suas alterações, salve-as no editor de texto.
+
+Em GitHub Desktop, acesse a vista Alterações. Na lista de arquivos, você verá o README.md alterado. A marca de verificação à esquerda do arquivo README.md indica que as alterações feitas no arquivo serão parte do commit que você fez. Talvez você queira fazer alterações em vários arquivos no futuro, mas sem fazer o commit das alterações de todos eles. Se você clicar na marca de seleção ao lado de um arquivo, esse arquivo não será incluído no commit.
+Exibir alterações
+
+Na parte inferior da lista Changes (Alterações), adicione uma mensagem ao commit. À direita da sua foto de perfil, digite uma breve descrição do commit. Já que estamos alterando o arquivo README.md, algo como "Adicionar informações sobre o propósito do projeto" seria um bom resumo. Abaixo do resumo, o campo de texto "Descrição" permite digitar uma descrição mais longa das alterações feitas no commit. Essa descrição pode ser útil para analisar o histórico de um projeto e entender o motivo das alterações. Como estamos fazendo uma atualização básica do arquivo README.md, fique à vontade para ignorar a descrição.
+Mensagem do commit
+
+Clique em Fazer commit do NOME DO BRANCH. O botão do commit mostra o seu branch atual. Dessa forma, você pode ter certeza de que deseja fazer o commit no branch desejado.
+Fazer commit de um branch
+
+Para fazer push das alterações no repositório remote no GitHub, clique em Push origin (Fazer push da origem).
+Fazer push de origem
+
+O botão Subir origem é o mesmo que você clicou para publicar o seu repositório no GitHub. Este botão muda contextualmente de acordo com o local em que você está no fluxo de trabalho do Git. Agora, ele deve mostrar Fazer push da origem com um número 1 ao lado, indicando que ainda não foi feito o push de um commit para o GitHub.
+O termo "origem" na opção Fazer push da origem indica que estamos fazendo push das alterações para o repositório remoto denominado origem que, neste caso, é o repositório do seu projeto no GitHub.com. Até você fazer o push de qualquer commit para o GitHub, haverá diferenças entre o repositório do seu projeto no computador e o repositório do seu projeto no GitHub.com. Assim, você pode trabalhar no local e deixar para fazer push das suas alterações no GitHub.com quando estiver tudo pronto.
+Na janela à direita da vista de Alterações, você verá sugestões de ações que podem ser feitas a seguir. Para abrir o repositório no GitHub no seu navegador, clique em Visualizar no GitHub.
+Ações disponíveis
+No navegador, clique em 2 commits. Você verá uma lista dos commits neste repositório no GitHub. O primeiro commit deve ser o que você acabou de fazer no GitHub Desktop.
+Clicar em dois commits
+Conclusão
+Agora você criou um repositório, publicou o repositório no GitHub, fez um commit e fez push das suas alterações no GitHub. Você pode seguir esse mesmo fluxo de trabalho ao contribuir para outros projetos os quais você cria ou nos quais você colabora.
+
+Leia mais
+"Primeiros passos com o Git"
+"Aprender sobre GitHub"
+"Começar com GitHub"
